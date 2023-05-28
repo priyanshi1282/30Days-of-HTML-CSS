@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+/* #18181b - NavBar Background Color */
+
+/* #a1a1aa - Text Color */
+
+/* Get Started Button Bg color - #5046e5 */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: #a1a1aa;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+h2 {
+	font-weight: 600;
+	font-family: "Inter", sans-serif;
+	color: white;
+}
+
+nav{
+	width: 100%;
+	background-color: #18181b;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.left{
+	display: flex;
+	align-items: center;
+}
+
+.left svg{
+	width: 30px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.middle ul{
+	display: flex;
+	align-items: center;
+}
+
+.middle select{
+	background-color: #18181b;
+	border: none;
+	outline: none;
+	font-size: 1rem;
+}
+
+.middle option{
+	padding: 0 10px;
+}
+
+.middle li{
+	margin: 0 15px;
+}
+a{
+	text-decoration: none;
+}
+
+button{
+	padding: 7px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: 1rem;
+	margin-left: 5px;
+}
+
+#getstarted{
+	background-color: #5046e5;
+	color: white;
+	border-radius: 5px;
+}
+
+p{
+	text-align: center;
+	margin: 20px;
+}
